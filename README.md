@@ -24,7 +24,23 @@ O site foi construído com HTML, CSS e JavaScript, e hospedado através do **Git
 ---
 
 ## 📂 Estrutura do Repositório
----
+
+---/ (raiz)
+│── index.html              # Página inicial do site (PRECISA estar aqui)
+│── style.css               # CSS principal (opcional)
+│── script.js               # JS principal (opcional)
+│
+├── css/                    # Outros arquivos CSS
+│     └── (arquivos .css)
+│
+├── js/                     # Outros arquivos JS
+│     └── (arquivos .js)
+│
+├── html/                   # Outras páginas HTML (não a principal)
+│     └── (arquivos .html)
+│
+└── imgs/                   # Imagens usadas no site
+      └── (arquivos .png/.jpg)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -34,9 +50,3 @@ O site foi construído com HTML, CSS e JavaScript, e hospedado através do **Git
 - **GitHub Pages** para hospedagem
 
 ---
-
-## 🚀 Como executar localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/mari-cs-122/TCC.git
